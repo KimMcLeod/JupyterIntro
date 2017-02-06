@@ -1,13 +1,25 @@
 # JupyterIntro
 
-## Intro to Jupyter notebooks for astronomy students
+## Intro to Python and jupyter notebooks for astronomy students
 KKM 2017 Feb 6
 
+### I thought Python was a type of snake
+Never programmed in Python before?  New to programming in general?  Go to codeacademy.com and work through the Python tutorial for a general introduction.  (The first 8 sections are enough to really get you going.  It will take a few hours.)
+
 ### Installing Python...or not
-Get ready to run Python on your own!  To do this you will need a working Python installation that works with Jupyter notebooks.  If you are a science major I recommend you install it on your own computer.  If you don't wish to do so you are welcome to use one of the iMacs in the Obs Project Room.  If you choose the former option, here are two good choices.  Choose the one that best matches you.
+A Python installation lets you create and run Python programs on your own local computer. For scientific programming you'll need a Python installation that includes some very handy scientific Python "packages" including numpy, scipy, and matplotlib.  Note that while some computers come with Python "built in," those installations might not have these handy packages or nice graphical ways to interact with them. If you are a science major we recommend you install Python on your own computer.  If you don't wish to do so you are welcome to use one of the iMacs in the Obs Project Room.  We recommend that you use one of the installations described below.  Choose the one that best matches you, and be sure you are getting the right version (32-bit, 64-bit, ...) for your computer's operating system.
 
-1) Enthought Canopy.  This is what is used in CS 111 and also what’s on the Obs machines.  It is also what KKM uses, and the interface looks a lot like the Matlab that some of you might someday use elsewhere.  To install Canopy, go to the Enthought Academics page and follow the instructions.
+1) Anaconda.  This is what’s used in lots of places including PHYS 202.  So if you're going to take PHYS 202, might as well install this now.  To install Anaconda, visit the Anaconda downloads page (https://www.continuum.io/downloads) and follow the instructions.  You can get either the Python 2.7 or Python 3.6 versions.
+
+2) Enthought Canopy.  This is what is used in CS 111 and also what’s on the Obs machines.  To install Canopy, go to the Enthought Academics page (https://www.enthought.com/academic-subscriptions/), request an academic license (free) and follow the instructions.
+
+### Using your new Python
+There are many ways to write and run Python code, and astronomers use different interfaces depending on the task at hand (and how old the astronomers are, and what they ate for breakfast, and...).  Here are some of them
     
-2) Anaconda.  This is what’s used in lots of places including PHYS 202.  So if you're going to take PHYS 202, might as well install this now.  To install Anaconda, visit the Anaconda downloads page and follow the instructions.
-
-### Testing your Python
+    Some (the oldest and/or geekiest) will start up a terminal window (Unix, Linux, ...), use a mouseless editor (vi or emacs) to write the code and save it in a .py program file, and then run the file from the terminal window.  
+    
+    Others (the hippest) will launch the installation's graphical user interface.  This allows you to write in a mousey editor and run it right from there, and also allows you to run Python commands interactively from the "ipython" prompt.
+    
+    Some of those same people (your instructors when they are interested in communicating their work to others, and the spouse of at least one of your instructors who is writing code collectively with lots of people building the worlds soon-to-be-biggest telescope) also use jupyter notebooks. These beasts allow you to write and code in a web browser in a format that is nice for other people to read and share.
+    
+To test to make sure your installation works, you can try the graphical user interface (Canopy icon --> editor or Anaconda Navigator --> Spyder). 
