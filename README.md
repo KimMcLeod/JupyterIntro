@@ -14,12 +14,17 @@ A Python installation lets you create and run Python programs on your own local 
 2) Enthought Canopy.  This is what is used in CS 111 and also what’s on the Obs machines.  To install Canopy, go to the Enthought Academics page (https://www.enthought.com/academic-subscriptions/), request an academic license (free) and follow the instructions.
 
 ### Using your new Python
-There are many ways to write and run Python code, and astronomers use different interfaces depending on the task at hand (and how old the astronomers are, and what they ate for breakfast, and...).  Here are some of them
+There are many ways to write and run Python code, and astronomers use different interfaces depending on the task at hand (and how old the astronomers are, and what they ate for breakfast, and...).  For example...
     
-    Some (the oldest and/or geekiest) will start up a terminal window (Unix, Linux, ...), use a mouseless editor (vi or emacs) to write the code and save it in a .py program file, and then run the file from the terminal window.  
+...sometimes (if you're feeling old and/or extra geeky) they will start up a terminal window (Unix, Linux, ...), use a mouseless editor (vi or emacs) to write the code and save it in a .py program file, and then run the file from the terminal window.  
     
-    Others (the hippest) will launch the installation's graphical user interface.  This allows you to write in a mousey editor and run it right from there, and also allows you to run Python commands interactively from the "ipython" prompt.
+...sometimes (when feeling hip) they will launch the installation's graphical user interface.  This allows you to write in a mousey editor and run it right from there, and also allows you to run Python commands interactively from the "ipython" prompt.
     
-    Some of those same people (your instructors when they are interested in communicating their work to others, and the spouse of at least one of your instructors who is writing code collectively with lots of people building the worlds soon-to-be-biggest telescope) also use jupyter notebooks. These beasts allow you to write and code in a web browser in a format that is nice for other people to read and share.
+...sometimes (when they are interested in communicating their work to others, or when like the spouse of one of your instructors is writing code collectively with lots of people building the worlds soon-to-be-biggest telescope) they use jupyter notebooks. These beasts allow you to write and code in a web browser in a format that is nice for other people to read and share.
     
-To test to make sure your installation works, you can try the graphical user interface (Canopy icon --> editor or Anaconda Navigator --> Spyder). 
+To test to make sure your installation works, you can try the graphical user interface (Canopy icon --> editor or Anaconda Navigator --> Spyder). In the interactive Python part type
+
+    import numpy as np
+    a = np.arange(10)
+    print a
+
