@@ -25,6 +25,12 @@ There are many ways to write and run Python code, and astronomers use different 
 To test to make sure your installation works, you can try the graphical user interface (Canopy icon --> editor or Anaconda Navigator --> Spyder). In the interactive Python part type
 
     import numpy as np
+    import pylab as pl
+    
     a = np.arange(10)
     print a
+    pl.plot(a,a**2)
+    
+Did it print numbers to the screen?  Did a plot pop up?  If so, rejoice!  If not...seek help.
 
+### Trying out a jupyter notebook
