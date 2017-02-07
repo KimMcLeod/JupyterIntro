@@ -35,4 +35,4 @@ Did it print numbers to the screen?  Did a plot pop up?  If so, rejoice!  If not
 
 ### Trying out a jupyter notebook
 To test out jupyter notebook you first have to open one, which of course there are many ways to do!
-Stay tuned...will update Wednesday.
+Stay tuned...we'll do this in class.
