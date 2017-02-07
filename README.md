@@ -16,11 +16,11 @@ A Python installation lets you create and run Python programs on your own local 
 ### Using your new Python
 There are many ways to write and run Python code, and astronomers use different interfaces depending on the task at hand (and how old the astronomers are, and what they ate for breakfast, and...).  For example...
     
-...sometimes (if you're feeling old and/or extra geeky) they will start up a terminal window (Unix, Linux, ...), use a mouseless editor (vi or emacs) to write the code and save it in a .py program file, and then run the file from the terminal window.  
+...sometimes (if they're feeling nostalgic for the olden days and/or extra geeky) they will start up a terminal window (Unix, Linux, ...), use a mouseless editor (vi or emacs) to write the code and save it in a .py program file, and then run the file from the terminal window.  
     
-...sometimes (when feeling hip) they will launch the installation's graphical user interface.  This allows you to write in a mousey editor and run it right from there, and also allows you to run Python commands interactively from the "ipython" prompt.
+...sometimes (when feeling hip) they will launch the installation's graphical user interface.  This allows them to write in a mousey editor and run it right from there, and also allows them to run Python commands interactively from the "ipython" prompt.
     
-...sometimes (when they are interested in communicating their work to others, or when like the spouse of one of your instructors is writing code collectively with lots of people building the worlds soon-to-be-biggest telescope) they use jupyter notebooks. These beasts allow you to write and code in a web browser in a format that is nice for other people to read and share.
+...sometimes (when they are interested in working on code with and communicating their work to others) they use jupyter notebooks. These beasts allow them to write and code in a web browser in a format that is nice for other people to read and share.
     
 To test to make sure your installation works, you can try the graphical user interface (Canopy icon --> editor or Anaconda Navigator --> Spyder). In the interactive Python part type
 
@@ -34,3 +34,5 @@ To test to make sure your installation works, you can try the graphical user int
 Did it print numbers to the screen?  Did a plot pop up?  If so, rejoice!  If not...seek help.
 
 ### Trying out a jupyter notebook
+To test out jupyter notebook you first have to open one, which of course there are many ways to do!
+Stay tuned...will update Wednesday.
