@@ -25,11 +25,12 @@ There are many ways to write and run Python code, and astronomers use different 
 To test to make sure your installation works, you can try the graphical user interface (Canopy icon --> editor or Anaconda Navigator --> Spyder). In the interactive Python part type
 
     import numpy as np
-    import pylab as pl
+    import matplotlib
+    import matplotlib.pyplot as plt
     
     a = np.arange(10)
     print a
-    pl.plot(a,a**2)
+    plt.plot(a,a**2)
     
 Did it print numbers to the screen?  Did a plot pop up?  If so, rejoice!  If not...seek help. 
 
@@ -41,4 +42,23 @@ Feel free to try out your python skills with some more playing.  How about
 
 ### Trying out a jupyter notebook
 To test out jupyter notebook you first have to open one, which of course there are many ways to do!
-Stay tuned...we'll do this in class.
+Stay tuned...we'll do this in class.  If you want to give it a try ahead of time, follow along.
+
+Once you have Python installed, you can create your first jupyter notebook. A jupyter notebook is a place where you can keep not only python code, but also output and helpful accompanying text to communicate your work to others...or your future self when you need to write up that scientific journal article based on your work!
+
+#### Start jupyter
+If you have Anaconda: Launcher --> choose jupyter
+If you have Canopy: Tools --> Canopy Terminal --> type jupyter notebook
+In either case your web browser should pop open and you should see your Home diretory.
+
+#### Create a new notebook
+New --> Python 2
+This will open a new tab containing a blank Untitled notebook. Go up top and give it a name!
+
+#### Try writing some code!
+Your notebook will have a blank "cell" called In []. Note on the toolbar that this block is designated as type 'Code' -- in this case, Python. Try it out by following this example.  Type in
+
+    for i in range(10):
+        print('I am jupytering')
+
+and then go up top and hit the run button (looks like >|)
