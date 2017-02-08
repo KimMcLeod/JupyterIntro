@@ -34,6 +34,7 @@ To test to make sure your installation works, you can try the graphical user int
 Did it print numbers to the screen?  Did a plot pop up?  If so, rejoice!  If not...seek help. 
 
 Feel free to try out your python skills with some more playing.  How about 
+
     for i in range (10):
         print('Hooray, it worked!')
 
