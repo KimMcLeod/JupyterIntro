@@ -31,7 +31,12 @@ To test to make sure your installation works, you can try the graphical user int
     print a
     pl.plot(a,a**2)
     
-Did it print numbers to the screen?  Did a plot pop up?  If so, rejoice!  If not...seek help.
+Did it print numbers to the screen?  Did a plot pop up?  If so, rejoice!  If not...seek help. 
+
+Feel free to try out your python skills with some more playing.  How about 
+    for i in range (10):
+        print('Hooray, it worked!')
+
 
 ### Trying out a jupyter notebook
 To test out jupyter notebook you first have to open one, which of course there are many ways to do!
