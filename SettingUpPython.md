@@ -1,4 +1,4 @@
-# JupyterIntro
+# Setting Up Python
 
 ## Intro to Python and jupyter notebooks for astronomy students
 KKM 2017 Feb 6
