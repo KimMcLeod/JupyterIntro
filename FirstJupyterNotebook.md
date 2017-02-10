@@ -35,7 +35,7 @@ The output appears right in your notebook.  Are you happy?
 
 Are you even happier now?  Go up and change n to a bigger number and re-run the cell to see what happens.
 
-At this point it's a good idea to save your notebook.  Do so, and look to see where it was saved.
+At this point it's a good idea to save your notebook.  Do so, and look to see where it was saved.  (If you are a Mac user, you can see your home directory by using command-shift-H)
 
 ## Use a code cell as a handy calculator and learn math.pi
 Insert a new cell of type 'Code' then in it you can do calculations right there...try this and then run the cell.  There are some samples below for you to try.
