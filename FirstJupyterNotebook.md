@@ -188,6 +188,10 @@ plt.plot(a,P,'r*')
 ## Save your file
 Go ahead, do it!
 
+## Shutting down jupyter
+To close your notebook, do File-->Close and Halt.
+Closing your web browser does NOT shut down jupyter. To do it, close the terminal/command line window that opened when you launched jupyter.
+
 # Help!  Where can I get help?
 In the olden days of basic, Pascal, fortran, c, etc. there was a nice short book that explained each command. Life was simple.  But...you had to write it all yourself.  In the case of Python there are soooo many packages that helpful people have already written, it's not possible to find help for everything in one place. 
 
