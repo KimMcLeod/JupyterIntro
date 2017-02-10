@@ -48,11 +48,14 @@ Once you have Python installed, you can create your first jupyter notebook. A ju
 
 #### Start jupyter
 If you have Anaconda: Launcher --> choose jupyter
+
 If you have Canopy: Tools --> Canopy Terminal --> type jupyter notebook
+
 In either case your web browser should pop open and you should see your Home diretory.
 
 #### Create a new notebook
 New --> Python 2
+
 This will open a new tab containing a blank Untitled notebook. Go up top and give it a name!
 
 #### Try writing some code!
